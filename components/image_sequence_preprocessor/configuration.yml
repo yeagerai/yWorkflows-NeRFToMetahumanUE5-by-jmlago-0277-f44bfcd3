@@ -1,7 +1,9 @@
 description: Converts the image sequence into the appropriate format required by NeRF,
   including alignment, resizing, and color correction. Outputs a processed image sequence
   and updated camera parameters.
+input-class: ImageSequencePreprocessorInput
 name: ImageSequencePreprocessor
+output-class: ImageSequencePreprocessorOutput
 parameters:
   alignment_method: feature_based
   color_correction_method: histogram_equalization
