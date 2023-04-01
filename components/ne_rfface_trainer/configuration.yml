@@ -1,7 +1,9 @@
 description: Trains a modified NeRF (Neural Radiance Fields) model on the processed
   image sequence, capturing the 3D render of a face. Outputs the trained NeRF model
   and generated depth maps.
+input-class: NeRFFaceTrainerInputDict
 name: NeRFFaceTrainer
+output-class: NeRFFaceTrainerOutputDict
 parameters:
   batch_size: 32
   learning_rate: 0.001
