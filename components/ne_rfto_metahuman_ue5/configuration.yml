@@ -2,5 +2,7 @@ description: This Yeager Workflow takes an input of ImageSequenceInputBaseModel,
   sequence of images containing different views of the face to be processed, along
   with their camera parameters, and processes it to generate MetahumanUE5OutputBaseModel,
   the final metahuman model in Unreal Engine 5 format.
+input-class: ImageSequenceInputBaseModel
 name: NeRFToMetahumanUE5
+output-class: MetahumanUE5OutputBaseModel
 parameters: {}
